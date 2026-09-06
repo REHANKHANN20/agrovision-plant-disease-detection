@@ -1,0 +1,13 @@
+APPLE CNN MODEL EVALUATION
+Test Accuracy: 97.75%
+Test Loss: 0.0968
+
+                  precision    recall  f1-score   support
+
+         Healthy       1.00      0.96      0.98        90
+      Apple_Scab       0.96      0.99      0.97        90
+Cedar_Apple_Rust       0.98      0.99      0.98        87
+
+        accuracy                           0.98       267
+       macro avg       0.98      0.98      0.98       267
+    weighted avg       0.98      0.98      0.98       267

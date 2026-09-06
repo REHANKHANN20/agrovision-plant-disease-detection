@@ -1,0 +1,2 @@
+plant,total_images,train_images,validation_images,test_images,image_width,image_height,channels,color_mode,dtype,pixel_range,split_method,train_ratio,validation_ratio,test_ratio,random_seed,classes,model_preprocessing
+Corn,1795,1256,269,270,224,224,3,RGB,uint8,0-255,Stratified,70%,15%,15%,42,"Healthy, Common_Rust, Northern_Leaf_Blight",MobileNetV2 preprocess_input during training

@@ -1,0 +1,19 @@
+{
+    "model": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "test_type": "Independent real-world / internet images",
+    "total_images": 16,
+    "correct": 11,
+    "incorrect": 5,
+    "accuracy": 0.6875,
+    "accuracy_percent": 68.75,
+    "average_confidence": 0.9031761884689331,
+    "preprocessing": {
+        "color": "RGB",
+        "resize": "224x224",
+        "dtype": "float32",
+        "pixel_range": "0-255",
+        "normalization": false
+    },
+    "model_modified": false,
+    "training_dataset_modified": false
+}

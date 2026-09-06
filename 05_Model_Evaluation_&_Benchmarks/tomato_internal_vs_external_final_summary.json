@@ -1,0 +1,50 @@
+{
+    "model": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "official_preprocessing": {
+        "color": "RGB",
+        "resize": "224x224",
+        "dtype": "float32",
+        "pixel_range": "0-255",
+        "normalization": false
+    },
+    "original_evaluation": {
+        "images": 270,
+        "accuracy_percent": 97.78,
+        "correct": 264,
+        "incorrect": 6
+    },
+    "internal_test": {
+        "description": "Small subset selected from existing tomato_processed_data.npz",
+        "images_per_class": 10,
+        "total_images": 30,
+        "correct": 30,
+        "incorrect": 0,
+        "accuracy": 1.0,
+        "accuracy_percent": 100.0,
+        "average_confidence": 0.9451198577880859,
+        "minimum_confidence": 0.46824827790260315,
+        "maximum_confidence": 0.9999919533729553,
+        "excluded_original_270": true,
+        "overlap_with_original_270": 0
+    },
+    "external_test": {
+        "description": "Independent real-world / Internet images stored outside the project dataset",
+        "images_per_class": 10,
+        "total_images": 30,
+        "correct": 18,
+        "incorrect": 12,
+        "accuracy": 0.6,
+        "accuracy_percent": 60.0,
+        "average_confidence": 0.8793210983276367,
+        "minimum_confidence": 0.5250962972640991,
+        "maximum_confidence": 0.9992234706878662
+    },
+    "comparison": {
+        "internal_accuracy_percent": 100.0,
+        "external_accuracy_percent": 60.0,
+        "accuracy_gap_percentage_points": 40.0
+    },
+    "model_modified": false,
+    "dataset_modified": false,
+    "training_performed": false
+}

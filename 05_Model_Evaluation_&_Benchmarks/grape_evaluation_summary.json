@@ -1,0 +1,12 @@
+{
+  "Plant": "Grape",
+  "Model": "MobileNetV2 Transfer Learning",
+  "Test_Images": 270,
+  "Test_Accuracy": 0.9555555582046509,
+  "Test_Loss": 0.16555815935134888,
+  "Classes": [
+    "Healthy",
+    "Black_Rot",
+    "Leaf_Blight"
+  ]
+}

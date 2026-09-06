@@ -1,0 +1,12 @@
+TOMATO CNN — CLASSIFICATION REPORT
+======================================================================
+
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.9889    0.9944        90
+Early_Blight     0.9667    0.9667    0.9667        90
+ Late_Blight     0.9670    0.9778    0.9724        90
+
+    accuracy                         0.9778       270
+   macro avg     0.9779    0.9778    0.9778       270
+weighted avg     0.9779    0.9778    0.9778       270

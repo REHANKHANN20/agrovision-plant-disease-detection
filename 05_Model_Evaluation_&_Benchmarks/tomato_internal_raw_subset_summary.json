@@ -1,0 +1,21 @@
+{
+    "test_type": "Internal raw dataset subset",
+    "selection": "5 images per class",
+    "total_images": 15,
+    "correct": 15,
+    "incorrect": 0,
+    "accuracy": 1.0,
+    "accuracy_percent": 100.0,
+    "average_confidence": 0.9897509217262268,
+    "preprocessing": {
+        "color": "RGB",
+        "resize": "224x224",
+        "dtype": "float32",
+        "pixel_range": "0-255",
+        "normalization": false
+    },
+    "excluded_final_evaluation_images": 270,
+    "model_modified": false,
+    "dataset_modified": false,
+    "training_performed": false
+}

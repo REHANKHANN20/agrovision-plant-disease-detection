@@ -1,0 +1,21 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Heavy Data Arrays (Preserved in Google Drive)
+*.npz
+*.tar.gz
+*.rar
+*.zip
+
+# OS Artifacts
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.env

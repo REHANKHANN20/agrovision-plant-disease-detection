@@ -1,0 +1,11 @@
+metric,value
+Test Images,270.0
+Correct Predictions,263.0
+Incorrect Predictions,7.0
+Test Loss,0.08477085828781128
+Test Accuracy,0.9740740656852722
+Test Accuracy (%),97.40740656852722
+Weighted Precision,0.9741092241092241
+Weighted Recall,0.9740740740740741
+Weighted F1-score,0.9740310799346121
+Average Confidence (%),96.6478705406189

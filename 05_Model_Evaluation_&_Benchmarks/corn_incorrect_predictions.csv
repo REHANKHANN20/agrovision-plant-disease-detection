@@ -1,0 +1,8 @@
+image_index,actual_class_id,actual_class,predicted_class_id,predicted_class,confidence,confidence_percent,correct
+17,2,Northern_Leaf_Blight,1,Common_Rust,0.69167745,69.16775,False
+31,1,Common_Rust,2,Northern_Leaf_Blight,0.78355306,78.35531,False
+45,1,Common_Rust,2,Northern_Leaf_Blight,0.58559,58.559002,False
+46,1,Common_Rust,2,Northern_Leaf_Blight,0.95261055,95.261055,False
+109,2,Northern_Leaf_Blight,0,Healthy,0.8989457,89.89457,False
+157,1,Common_Rust,2,Northern_Leaf_Blight,0.93263215,93.263214,False
+238,2,Northern_Leaf_Blight,1,Common_Rust,0.5906977,59.06977,False

@@ -1,0 +1,20 @@
+{
+    "project": "Plant Disease Detection",
+    "plant": "Apple",
+    "model": "Apple CNN \u2014 MobileNetV2",
+    "model_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/apple_cnn_best.keras",
+    "dataset_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/3rd Preprocessing/apple_processed_data.npz",
+    "total_images": 1775,
+    "train_images": 1242,
+    "val_images": 266,
+    "test_images": 267,
+    "classes": [
+        "Healthy",
+        "Apple_Scab",
+        "Cedar_Apple_Rust"
+    ],
+    "best_val_accuracy": 0.932330846786499,
+    "best_val_accuracy_percent": 93.2330846786499,
+    "epochs_trained": 15,
+    "seed": 42
+}

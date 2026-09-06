@@ -1,0 +1,12 @@
+Grape Held-out Test Evaluation Report
+Accuracy: 95.56% | Loss: 0.1656
+
+              precision    recall  f1-score   support
+
+     Healthy     1.0000    0.9889    0.9944        90
+   Black_Rot     0.8824    1.0000    0.9375        90
+ Leaf_Blight     1.0000    0.8778    0.9349        90
+
+    accuracy                         0.9556       270
+   macro avg     0.9608    0.9556    0.9556       270
+weighted avg     0.9608    0.9556    0.9556       270

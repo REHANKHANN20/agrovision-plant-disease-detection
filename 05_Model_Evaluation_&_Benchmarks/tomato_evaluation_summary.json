@@ -1,0 +1,56 @@
+{
+    "project": "Plant Disease Detection",
+    "model": "Tomato CNN \u2014 MobileNetV2",
+    "model_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "dataset_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/3rd Preprocessing/tomato_processed_data.npz",
+    "total_images": 1800,
+    "image_shape": [
+        224,
+        224,
+        3
+    ],
+    "classes": [
+        "Healthy",
+        "Early_Blight",
+        "Late_Blight"
+    ],
+    "class_distribution": {
+        "Healthy": 600,
+        "Early_Blight": 600,
+        "Late_Blight": 600
+    },
+    "duplicate_groups": 1,
+    "train_images": 1260,
+    "validation_images": 270,
+    "test_images": 270,
+    "test_class_distribution": {
+        "Healthy": 90,
+        "Early_Blight": 90,
+        "Late_Blight": 90
+    },
+    "test_accuracy": 0.9777777777777777,
+    "test_accuracy_percent": 97.77777777777777,
+    "per_class": {
+        "Healthy": {
+            "precision": 1.0,
+            "recall": 0.9888888888888889,
+            "f1_score": 0.994413407821229,
+            "support": 90
+        },
+        "Early_Blight": {
+            "precision": 0.9666666666666667,
+            "recall": 0.9666666666666667,
+            "f1_score": 0.9666666666666667,
+            "support": 90
+        },
+        "Late_Blight": {
+            "precision": 0.967032967032967,
+            "recall": 0.9777777777777777,
+            "f1_score": 0.9723756906077348,
+            "support": 90
+        }
+    },
+    "correct_predictions": 264,
+    "incorrect_predictions": 6,
+    "seed": 42
+}

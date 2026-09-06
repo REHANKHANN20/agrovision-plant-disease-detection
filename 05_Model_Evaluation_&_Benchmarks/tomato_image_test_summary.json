@@ -1,0 +1,14 @@
+{
+    "test_type": "Existing tomato dataset image inference test",
+    "total_images": 20,
+    "internal_images": 10,
+    "external_images": 10,
+    "overall_accuracy": 0.3,
+    "internal_accuracy": 0.3,
+    "external_accuracy": 0.3,
+    "correct_predictions": 6,
+    "incorrect_predictions": 14,
+    "average_confidence": 0.5930449999999999,
+    "model": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "dataset": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/3rd Preprocessing/tomato_processed_data.npz"
+}

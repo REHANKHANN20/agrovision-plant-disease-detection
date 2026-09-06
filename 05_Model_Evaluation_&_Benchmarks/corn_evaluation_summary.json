@@ -1,0 +1,22 @@
+{
+    "plant": "Corn",
+    "model": "MobileNetV2",
+    "evaluation_dataset": "Held-out Test Set",
+    "test_images": 270,
+    "correct_predictions": 263,
+    "incorrect_predictions": 7,
+    "test_loss": 0.08477085828781128,
+    "test_accuracy": 0.9740740656852722,
+    "test_accuracy_percent": 97.40740656852722,
+    "weighted_precision": 0.9741092241092241,
+    "weighted_recall": 0.9740740740740741,
+    "weighted_f1_score": 0.9740310799346121,
+    "average_confidence": 0.966478705406189,
+    "average_confidence_percent": 96.6478705406189,
+    "class_names": [
+        "Healthy",
+        "Common_Rust",
+        "Northern_Leaf_Blight"
+    ],
+    "test_set_used_for_training": false
+}

@@ -1,0 +1,4 @@
+,Predicted_Healthy,Predicted_Early_Blight,Predicted_Late_Blight
+Actual_Healthy,10,0,0
+Actual_Early_Blight,0,9,1
+Actual_Late_Blight,0,0,10

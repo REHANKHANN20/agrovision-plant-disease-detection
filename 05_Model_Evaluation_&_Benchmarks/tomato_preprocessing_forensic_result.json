@@ -1,0 +1,19 @@
+{
+    "tensorflow_version": "2.20.0",
+    "model": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "dataset": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/3rd Preprocessing/tomato_processed_data.npz",
+    "exact_test_images": 270,
+    "original_evaluation_accuracy": 0.9778,
+    "original_correct": 264,
+    "original_incorrect": 6,
+    "raw_0_255_accuracy": 0.9777777777777777,
+    "normalized_0_1_accuracy": 0.3333333333333333,
+    "mobilenetv2_minus1_plus1_accuracy": 0.3333333333333333,
+    "raw_agreement_with_original": 270,
+    "normalized_agreement_with_original": 91,
+    "mobilenetv2_agreement_with_original": 91,
+    "best_matching_format": "RAW_0_255",
+    "best_prediction_agreement": 270,
+    "model_modified": false,
+    "dataset_modified": false
+}

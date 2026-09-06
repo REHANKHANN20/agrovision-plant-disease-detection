@@ -1,0 +1,17 @@
+filepath,actual_class,predicted_class,confidence,correct,probability_healthy,probability_early_blight,probability_late_blight
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Healthy/health tomato 3.jpg,Healthy,Late_Blight,0.98752195,False,0.0015438604,0.010934196,0.98752195
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Healthy/health tomato.jpg,Healthy,Late_Blight,0.9963811,False,0.003245919,0.00037289056,0.9963811
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Healthy/healthy tomato 1.jpg,Healthy,Late_Blight,0.9767513,False,0.006885601,0.016363053,0.9767513
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Healthy/healthy tomato 2.jpg,Healthy,Healthy,0.7969772,True,0.7969772,0.006888661,0.19613414
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Healthy/healthy tomato 3.jpg,Healthy,Healthy,0.9748991,True,0.9748991,0.021574056,0.003526866
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Early_Blight/early tomato 1.jpg,Early_Blight,Early_Blight,0.9574918,True,0.00012781633,0.9574918,0.04238031
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Early_Blight/early tomato 2.jpg,Early_Blight,Late_Blight,0.7157223,False,0.0024942039,0.28178352,0.7157223
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Early_Blight/early tomato 4.jpg,Early_Blight,Early_Blight,0.933954,True,2.9282637e-05,0.933954,0.06601668
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Early_Blight/early tomato 5.jpg,Early_Blight,Early_Blight,0.9990705,True,1.5500262e-05,0.9990705,0.0009139209
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Early_Blight/early tomato.jpg,Early_Blight,Late_Blight,0.8510787,False,6.968183e-05,0.14885163,0.8510787
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato 1.jpg,Late_Blight,Late_Blight,0.75214267,True,1.04378805e-05,0.24784695,0.75214267
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato 2.jpg,Late_Blight,Late_Blight,0.9953024,True,2.0128266e-07,0.0046975045,0.9953024
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato 3.jpg,Late_Blight,Late_Blight,0.52531576,True,1.1894913e-08,0.47468418,0.52531576
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato 4.jpg,Late_Blight,Late_Blight,0.99710095,True,1.1224538e-06,0.002897842,0.99710095
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato 5.jpg,Late_Blight,Late_Blight,0.998801,True,3.302282e-05,0.0011660919,0.998801
+/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/7th Test_Images/Tomato_RealWorld/Late_Blight/late tomato.jpg,Late_Blight,Late_Blight,0.9923084,True,1.8536972e-06,0.007689696,0.9923084

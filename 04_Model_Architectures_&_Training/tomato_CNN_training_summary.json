@@ -1,0 +1,25 @@
+{
+    "model": "MobileNetV2 Transfer Learning",
+    "dataset": "tomato_processed_data.npz",
+    "total_images": 1800,
+    "image_shape": [
+        224,
+        224,
+        3
+    ],
+    "classes": [
+        "Healthy",
+        "Early_Blight",
+        "Late_Blight"
+    ],
+    "train_images": 1260,
+    "validation_images": 270,
+    "test_images": 270,
+    "best_training_accuracy": 0.9730158448219299,
+    "best_validation_accuracy": 0.9481481313705444,
+    "test_accuracy": 0.9481481313705444,
+    "test_loss": 0.1364562213420868,
+    "epochs_completed": 14,
+    "model_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model/tomato_cnn_best.keras",
+    "dataset_path": "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/3rd Preprocessing/tomato_processed_data.npz"
+}

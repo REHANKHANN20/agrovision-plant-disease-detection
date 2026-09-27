@@ -124,13 +124,18 @@ with tab_diag:
         else:
             camera_file = st.camera_input(f"Capture live {selected_crop} leaf")
 
+    # Initialize session state for persistent demo sample selection
+    if "current_crop" not in st.session_state or st.session_state["current_crop"] != selected_crop:
+        st.session_state["current_crop"] = selected_crop
+        st.session_state["active_demo_path"] = None
+
     with col_samples:
         st.markdown("**⚡ 1-Click Instant Test Samples:**")
         st.caption("Test the model immediately with pre-loaded samples:")
         
         sample_dir = os.path.join(os.path.dirname(__file__), "test_samples", selected_crop)
         if not os.path.isdir(sample_dir):
-            sample_dir = os.path.join(r"G:\My Drive\Plant Disease Detection (Computer Vision)\8th Web_Application	est_samples", selected_crop)
+            sample_dir = os.path.join(r"G:\My Drive\Plant Disease Detection (Computer Vision)\8th Web_Application\test_samples", selected_crop)
         
         demo_cols = st.columns(3)
         if os.path.isdir(sample_dir):
@@ -140,17 +145,19 @@ with tab_diag:
                 btn_col = demo_cols[i % 3]
                 with btn_col:
                     if st.button(f"🔎 {name_clean}", key=f"btn_{selected_crop}_{f}", use_container_width=True):
-                        selected_demo_path = os.path.join(sample_dir, f)
+                        st.session_state["active_demo_path"] = os.path.join(sample_dir, f)
         else:
             st.info("Demo samples directory ready.")
 
     active_image = None
-    if selected_demo_path and os.path.isfile(selected_demo_path):
-        active_image = selected_demo_path
-    elif uploaded_file is not None:
+    if uploaded_file is not None:
+        st.session_state["active_demo_path"] = None
         active_image = uploaded_file
     elif camera_file is not None:
+        st.session_state["active_demo_path"] = None
         active_image = camera_file
+    elif st.session_state.get("active_demo_path") and os.path.isfile(st.session_state["active_demo_path"]):
+        active_image = st.session_state["active_demo_path"]
 
     st.divider()
 

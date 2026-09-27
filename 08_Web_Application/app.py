@@ -81,7 +81,7 @@ with st.sidebar:
     )
     
     st.divider()
-    st.caption("**AgroVision CV v2.4 (Production)**")
+    st.caption("**AgroVision CV v2.5 (Production — Validated)**")
     st.caption("Includes PlantVillage + Mendeley GVLiD India field benchmarks.")
 
 # ==============================================================================

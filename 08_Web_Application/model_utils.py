@@ -123,7 +123,7 @@ def resolve_model_root():
         # Google Colab standard path
         "/content/drive/MyDrive/Plant Disease Detection (Computer Vision)/6th Trained_Model",
         # Windows mounted Google Drive path
-        r"G:\My Drive\Plant Disease Detection (Computer Vision)th Trained_Model",
+        r"G:\My Drive\Plant Disease Detection (Computer Vision)\6th Trained_Model",
         # Relative path if launched from inside 8th Web_Application
         os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "6th Trained_Model")),
         # Current working directory fallbacks
